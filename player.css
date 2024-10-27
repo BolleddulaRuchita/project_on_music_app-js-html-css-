@@ -1,0 +1,30 @@
+.player-container {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+.album-art {
+    width: 100%;
+    border-radius: 10px;
+}
+.song-details {
+    margin-top: 15px;
+}
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.controls button {
+    margin: 0 5px;
+}
+.progress-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#current-time, #total-duration {
+    margin: 0 10px;
+}
